@@ -31,7 +31,6 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -59,11 +58,7 @@
     </main>
 
     <footer class="foot">
-        <div class="one-item sm-half-left md-half-left lg-half-left">
-            <div class="box-model">Box 1</div>
-            <div class="box-model">Box 2</div>
-            <div class="box-model">Box 3</div>
-        </div>
+        
     </footer>
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
