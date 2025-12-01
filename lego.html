@@ -4,20 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
-
-    <header class="grid-con">
-        <img src="imgs/#" class="col-span-1 m-col-span-2 l-col-span-2">
-        <button class="ham col-start-4">&#9776;</button>
-        <nav id="main-nav" class="full m-col-start-7 l-col-start-9">
+    <header class="grid-con main-header">
+        <img src="imgs/SVG/logo.svg" class="col-span-3 m-col-span-2 m-col-start-1 l-col-span-2 l-col-start-1" alt="classic centre logo">
+        <button class="ham col-span-1 col-start-4">&#9776;</button>
+        <nav id="main-nav" class="full m-col-span-6 m-col-start-7 l-col-span-6 l-col-start-7">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-    </nav>
+        </nav>
     </header>
-    
+
+    <section class="books-gallery grid-con">
+        <h2 class="full books-title">Our Collection</h2>
+        <div class="books-grid full grid-con">
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </body>
 </html>

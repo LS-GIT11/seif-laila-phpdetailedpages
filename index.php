@@ -21,10 +21,17 @@
 <body class="site">
     <h1 class="hidden">Bookstore</h1>
 
-    <header class="head">
-       <div class="logo"></div>
-       <nav>
-       </nav>
+    <header class="grid-con main-header">
+        <img src="imgs/SVG/logo.svg" class="col-span-3 m-col-span-2 m-col-start-1 l-col-span-2 l-col-start-1" alt="classic centre logo">
+        <button class="ham col-span-1 col-start-4">&#9776;</button>
+        <nav id="main-nav" class="full m-col-span-6 m-col-start-7 l-col-span-6 l-col-start-7">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main id="content" class="main">
@@ -54,5 +61,7 @@
             <div class="box-model">Box 3</div>
         </div>
     </footer>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </body>
 </html>

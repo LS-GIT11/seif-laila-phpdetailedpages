@@ -1,3 +1,4 @@
+(()=>{
 const hamburger = document.querySelector(".ham");
     const nav = document.querySelector("#main-nav");
 
@@ -6,3 +7,4 @@ const hamburger = document.querySelector(".ham");
     }
 
     hamburger.addEventListener("click", toggleMenu);
+})();
