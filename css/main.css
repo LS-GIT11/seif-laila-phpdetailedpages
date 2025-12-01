@@ -1,6 +1,7 @@
 html {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .hidden{
@@ -14,10 +15,6 @@ body {
     color: #e4e4e4;
 }
 
-header{
-    position: sticky;
-}
-
 .main-header {
     background-color: rgb(240, 240, 240);
     padding: 20px 15px;
@@ -29,7 +26,6 @@ header{
     width: auto;
     height: 70px;
 }
-
 
 .ham { 
     font-size: 48px;
@@ -76,6 +72,7 @@ header{
 #main-nav a:hover {
     color: #5259dd;
     transition: all ease-in 0.2s;
+    animation: simpleFloat 0.5s ease;
 }
 
 
@@ -120,17 +117,16 @@ header{
     margin-bottom: 30px;
 }
 
-.book-strip {
-    row-gap: 24px;
-    column-gap: 24px;
-}
-
 .book-card {
-    background-color: #1b1b1b;
+    background-color: #131822;
     border-radius: 16px;
     padding: 16px;
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
     filter: saturate(70%);
+    animation: cardSlide 1s forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
+    margin-bottom: 15px;
 }
 
 .book-card img {
@@ -159,4 +155,50 @@ header{
     filter: saturate(110%);
     rotate: calc(2deg);
     scale: calc(105%);
+}
+
+.hero {
+    background-color: #e67947;
+    color: white;
+    text-align: center;
+    padding: 70px 50px 70px 50px;
+    min-height: 150px;
+    animation: colorPulseBkg 60s ease infinite;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    animation: slideIn 1s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    animation: slideIn 1s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+footer{
+    background-color: #e67947;
+    color: white;
+    padding: 30px 40px 80px 40px;
+    min-height: 80px;
+    animation: colorPulseBkg 60s ease infinite;
+}
+
+footer p{
+    margin-top: 50px;
+}
+
+.btt-button{
+    height: 80px;
+    width: auto;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    transition: all ease-in 0.3s;
 }

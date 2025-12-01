@@ -18,6 +18,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/keyframe.css" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <title>Classic Centre - <?php echo $row['title']; ?> Details</title>
 </head>
@@ -37,6 +38,7 @@
     </header>
 
     <main id="content" class="main">
+
         <section>
             <?php
                 echo
@@ -57,8 +59,9 @@
         </section>
     </main>
 
-    <footer class="foot">
-        
+    <footer class="grid-con">
+        <p class="col-span-3">All rights reserved. 2025.</p>
+        <a href="#top" class="btt-button col-start-4 m-col-start-12 l-col-start-12"><img src="imgs/SVG/arrow.svg">GO TO TOP</a>
     </footer>
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
