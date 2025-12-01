@@ -52,3 +52,18 @@
         background-color: #d25126;
     }
 }
+
+@keyframes colorPulseRead {
+    0%, 100% {
+        filter: drop-shadow(0 -2px 18px #e0800a);
+    }
+    25% {
+        filter: drop-shadow(0 2px 18px #e05c0a);
+    }
+    50% {
+        filter: drop-shadow(0 2px 18px #e0a00a);
+    }
+    75% {
+        filter: drop-shadow(0 -2px 18px #e0350a);
+    }
+}

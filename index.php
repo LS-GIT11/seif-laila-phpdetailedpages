@@ -26,7 +26,7 @@
         <button class="ham col-span-1 col-start-4">&#9776;</button>
         <nav id="main-nav" class="full m-col-span-6 m-col-start-7 l-col-span-6 l-col-start-7">
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
