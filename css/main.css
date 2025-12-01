@@ -3,6 +3,10 @@ html {
     padding: 0;
 }
 
+.hidden{
+    display: none;
+}
+
 body {
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -102,4 +106,57 @@ header{
     .main-header {
         padding: 14px 40px;
     }
+}
+
+.book-gallery {
+    padding: 40px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.book-gallery h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.book-strip {
+    row-gap: 24px;
+    column-gap: 24px;
+}
+
+.book-card {
+    background-color: #1b1b1b;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+    filter: saturate(70%);
+}
+
+.book-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+.book-card h3 {
+    margin: 12px 0 4px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.book-author {
+    margin: 0;
+    font-size: 15px;
+    color: #bbb;
+}
+
+.book-card:hover {
+    background-color: #111111;
+    transition: all ease-in-out 0.1s;
+    filter: brightness(105%);
+    filter: saturate(110%);
+    rotate: calc(2deg);
+    scale: calc(105%);
 }

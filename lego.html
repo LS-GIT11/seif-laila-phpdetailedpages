@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/grid.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
 <body>
     <header class="grid-con main-header">
@@ -15,17 +15,71 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="books-gallery grid-con">
-        <h2 class="full books-title">Our Collection</h2>
-        <div class="books-grid full grid-con">
-        </div>
-    </section>
+    <main>
+        <section class="book-gallery">
+            <h2>The Collection</h2>
+            <div class="book-strip grid-con">
+                <article class="book-card col-span-2 m-col-span-3 l-col-span-3">
+                    <img src="imgs/gatsby.jpg" alt="The Great Gatsby">
+                    <h3>The Great Gatsby</h3>
+                    <p class="book-author">F. Scott Fitzgerald</p>
+                </article>
+
+                <article class="book-card col-span-2 m-col-span-3 l-col-span-3">
+                    <img src="imgs/mockingbird.jpg" alt="To Kill A Mockingbird">
+                    <h3>To Kill A Mockingbird</h3>
+                    <p class="book-author">Harper Lee</p>
+                </article>
+
+                <article class="book-card col-span-2 m-col-span-3 l-col-span-3">
+                    <img src="imgs/1984.jpg" alt="1984">
+                    <h3>1984</h3>
+                    <p class="book-author">George Orwell</p>
+                </article>
+
+                <article class="book-card col-span-2 m-col-span-3 l-col-span-3">
+                    <img src="imgs/pride.jpg" alt="Pride and Prejudice">
+                    <h3>Pride and Prejudice</h3>
+                    <p class="book-author">Jane Austen</p>
+                </article>
+
+                <article class="book-card col-span-2 m-col-span-3 l-col-span-3">
+                    <img src="imgs/catcher.jpg" alt="The Catcher in the Rye">
+                    <h3>The Catcher in the Rye</h3>
+                    <p class="book-author">J. D. Salinger</p>
+                </article>
+
+                <article class="book-card col-span-2 m-col-span-3 l-col-span-3">
+                    <img src="imgs/hobbit.jpg" alt="The Hobbit">
+                    <h3>The Hobbit</h3>
+                    <p class="book-author">J.R.R. Tolkien</p>
+                </article>
+
+                <article class="book-card col-span-2 m-col-span-3 l-col-span-3">
+                    <img src="imgs/rings.jpg" alt="Lord of the Rings">
+                    <h3>Lord of the Rings</h3>
+                    <p class="book-author">J.R.R. Tolkien</p>
+                </article>
+
+                <article class="book-card col-span-2 m-col-span-3 l-col-span-3">
+                    <img src="imgs/farm.jpg" alt="Animal Farm">
+                    <h3>Animal Farm</h3>
+                    <p class="book-author">George Orwell</p>
+                </article>
+
+                <article class="book-card col-span-2 m-col-span-3 l-col-span-3">
+                    <img src="imgs/fahrenheit.jpg" alt="Fahrenheit 451">
+                    <h3>Fahrenheit</h3>
+                    <p class="book-author">Ray Bradbury</p>
+                </article>
+            </div>
+        </section>
+    </main>
 
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>

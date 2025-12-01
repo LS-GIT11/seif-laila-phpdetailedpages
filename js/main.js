@@ -7,4 +7,5 @@ const hamburger = document.querySelector(".ham");
     }
 
     hamburger.addEventListener("click", toggleMenu);
+    
 })();
