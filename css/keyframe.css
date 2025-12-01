@@ -1,0 +1,54 @@
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes cardSlide {
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes simpleFloat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes colorPulse {
+    0%, 100% {
+        color: #cfe2f5;
+    }
+    50% {
+        color: #ffffff;
+    }
+}
+
+@keyframes colorPulseBkg {
+    0%, 100% {
+        background-color: #e0800a;
+    }
+    25% {
+        background-color: #d3590e;
+    }
+    50% {
+        background-color: #df7b23;
+    }
+    75% {
+        background-color: #d25126;
+    }
+}
